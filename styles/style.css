@@ -100,7 +100,7 @@ p.colored {
 }
 nav {
   background-color: var(--nav-background-color);
-  line-height: 1.5em;
+  line-height: 1em;
   text-align: center;
   font-size: 1.2em;
 }
@@ -110,7 +110,7 @@ nav  {
 }
 nav a {
   padding:1em;
-  min-width: 120px;
+  min-width: 100px;
   text-decoration: none;
   padding: 10px;
 }

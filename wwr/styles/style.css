@@ -4,7 +4,7 @@ body {
     background-color: #a6ddcb;
 }
 header { 
-    background-color: #bde2e3;
+    background-color: #36a4a8;
     
 }
 nav a:hover {
@@ -19,7 +19,7 @@ nav a {
 #hero-msg h1, #hero-msg h4, #hero {
     text-align: center;
 }
-main {
+main section {
     text-align: center;
 }
 .button-box {

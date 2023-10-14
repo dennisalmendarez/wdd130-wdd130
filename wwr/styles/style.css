@@ -1,20 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Rock+Salt&family=Young+Serif&display=swap');
+
 body {
     max-width: 1600px;
-    margin: 0 auto;
-    background-color: #a6ddcb;
+    background-color: #00afb9;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header { 
     background-color: #36a4a8;
     
 }
 nav a:hover {
-    background-color: #097b09;
-    color: #b8986f;
+    background-color: #fdfcdc70;
+    color: #f07167;
 }
 nav a {
     text-align: center;
     color:#000000;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4, #hero {
     text-align: center;
@@ -29,11 +35,16 @@ main section {
     background-color: #6799c2;
     color: #000000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 #background {
     height: 725px;
 }
 .book:hover, .join:hover {
+    font-size: 18px;
     background-color: #f0f8ff;
     color: #0755ba;
 }
@@ -43,9 +54,14 @@ main section {
 footer {
     background-color: #bfadda;
     color: #000000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
-.home-title {
-    background-color: #000000;
+.home-tittle {
+    font-family: 'Rock salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    background-color: #00afb9;
+    margin-top: 10px;
 }
 h4 {
     color: #000000;
@@ -54,7 +70,9 @@ h4 {
     color: #000000;
 }
 .msg p {
+    font-size: 0.8em;
     color: #000000;
+    padding-bottom: 15px;
 }
 footer a {
     color: #674040;
@@ -74,7 +92,31 @@ footer p a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+.msg {
+    background-color: #bfadda;
+    line-height: 1.5em;
+    padding: 35px;
+  }
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #f07167;
+}
+main section img {
+    box-sizing: border-box;
 }

@@ -3,6 +3,7 @@ body {
     padding: 0%;
 }
 header img {
+    width: 600;
     align-content: center;
 }
 footer {
@@ -11,10 +12,13 @@ footer {
     color: white;
 }
 footer img {
-    border-radius: 50%;
-    border-image: fill;
-    border: 10px solid darkgray;
-    width: 20%;
-    align-items: center;
-    padding: 45px;
+    width: 250px;
+    height: 250px;
+    padding: 250px;
   }
+main section {
+    text-align: center;
+    margin: 0;
+    background-color: gray;
+    color: white;
+}

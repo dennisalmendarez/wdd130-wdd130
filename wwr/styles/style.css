@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Rock+Salt&family=Young+Serif&display=swap');
 
-body {
+#content {
     max-width: 1600px;
+    margin: 0 auto;
+}
+body {
     background-color: #00afb9;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;

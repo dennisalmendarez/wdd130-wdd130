@@ -16,15 +16,15 @@ Fonts are separated by a & */
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: rgb(237, 111, 33); /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: rgb(237, 111, 33); /* paragraph text on a colored background */ 
-  --paragraph-background-color: #1b838a82  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #b8c0ff;
+  --headline-color-on-white: #00afb9;  /* headlines on a white background */ 
+  --headline-color-on-color: #f07167; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #00afb9; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #f07167; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #fdfcdc  ;
+  --nav-link-color: #00afb9;
+  --nav-background-color: #fdfcdc;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #9d4edd;
+  --nav-hover-background-color: #f07167;
 }
 
 
@@ -40,7 +40,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 450px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);

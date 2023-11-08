@@ -39,8 +39,18 @@ nav {
   align-self: center;
 }
 .header-image img {
-  width: 100%;
+  max-width: 1200px;
   height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 5px solid #f07167;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.header-image img:hover {
+  opacity: .6;
+  transform: scale(1.1);
 }
 .image-container {
   display: flex;

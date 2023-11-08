@@ -217,7 +217,7 @@ footer {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .river-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
     }

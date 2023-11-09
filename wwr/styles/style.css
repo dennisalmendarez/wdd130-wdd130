@@ -192,6 +192,93 @@ footer {
     opacity: .6;
     transform: scale(1.1);
 }
+
+/* here is rivers: */
+.header-image img {
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 5px solid #f07167;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .header-image img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  }
+  .header-image img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .arizona, .utah, .idaho {
+    margin: 20px;
+    text-align: center;
+  }
+  .arizona img, .utah img, .idaho img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: left;
+    margin: 15px;
+  }
+  .utah img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: right;
+    margin: 15px;
+  }
+  .content {
+    margin-top: 10px;
+  }
+  .content h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  .content p {
+    text-align: justify;
+    color: brown;
+  }
+  .img {
+    border: 5px solid #f07167;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  }
+  .bottom-img {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .bottom-img .river-img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #f07167;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .river-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Event List</title>
+</head>
+<body>
+
+    <div class="event-box">
+        <div class="event">
+            <h3>Hoedown</h3>
+            <p><span>Information:</span> Small information about the Hoedown event.</p>
+            <p><span>Date:</span> Date of the Hoedown event.</p>
+        </div>
+
+        <div class="event">
+            <h3>Dance</h3>
+            <p><span>Information:</span> Small information about the Dance event.</p>
+            <p><span>Date:</span> Date of the Dance event.</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -164,3 +164,36 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 1em;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  header {
+    padding: 1em;
+  }
+
+  nav a {
+    padding: 0.5em;
+    min-width: auto;
+  }
+
+  .sitemap {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: ". home" "top top" "left right" "page2 page3";
+  }
+
+  .sm-home,
+  .sm-page2,
+  .sm-page3,
+  .top,
+  .left,
+  .right {
+    line-height: 2em;
+  }
+}

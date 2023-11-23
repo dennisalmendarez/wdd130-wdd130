@@ -14,7 +14,7 @@
     --headline-color-on-white: #1F97A6;  /* headlines on a white background */ 
     --headline-color-on-color: #17C3B2; /* headlines on a colored background */ 
     --paragraph-color-on-white: #1F97A6; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: #17C3B2; /* paragraph text on a colored background */ 
+    --paragraph-color-on-color: #221818; /* paragraph text on a colored background */ 
     --paragraph-background-color: #FED6D0  ;
     --nav-link-color: #1F97A6;
     --nav-background-color: #FED6D0;
@@ -35,6 +35,7 @@ body {
 }
 
 header {
+    font-size: 2em;
     display: grid;
     grid-template-columns: 150px auto;
     background-color: var(--nav-background-color);
@@ -156,6 +157,14 @@ h4 a:hover {
     display: flex;
 }
 
+a.article-link {
+    color: var(--paragraph-color-on-color);
+}
+
+h2 {
+    color: white;
+}
+
 .president-img {
     width: 400px;
     height: 400px;
@@ -169,7 +178,7 @@ h4 a:hover {
 }
 
 #background p {
-    color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
 }
 
 footer {
@@ -203,6 +212,20 @@ footer p, footer a {
 
 .footer-links {
     text-align: center;
+}
+
+
+.footer-links a {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-color);
+    text-decoration: none;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+
+.footer-links a:hover {
+    color: var(--nav-hover-link-color);
 }
 
 .social {

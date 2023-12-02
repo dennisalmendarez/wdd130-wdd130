@@ -420,13 +420,13 @@ footer p, footer a {
 @media screen and (max-width: 900px) {
     .past-event-box {
         margin: 0;
-        padding: auto;
+        padding: 0;
         grid-column: 1;
         margin-left: -20px;
     }
     .event-box{
         margin: 0;
-        padding: auto;
+        padding: 0;
         grid-column: 1;
         margin-left: -20px;
     }

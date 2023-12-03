@@ -275,7 +275,7 @@ footer p, footer a {
     text-align: center;
 }
 
-.box {
+.main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;

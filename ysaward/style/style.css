@@ -416,43 +416,52 @@ footer p, footer a {
 
 
 /* about us page */
-.main-content {
+#main-content {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
 }
 
-#background-msg {
+.msg-box {
+    margin-bottom: 75px;
+}
+
+.background-msg {
     background-color: var(--headline-color-on-color);
-    border-radius: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    border-radius: 20px;
     display: flex;
+    margin: 0 20px 20px 20px;
 }
 
-.temple, .sunday{
-    width: 200px;
+.temple, .share, .sunday {
+    max-width: 200px;
+    border-radius: 200px;
+    padding: 1px 20px;
+}
+
+.temple {
     float: right;
-    border-radius: 40px;
-    padding-top: 1px;
-    padding-right: 20px;
 }
 
 .share {
-    width: 200px;
     float: left;
-    border-radius: 40px;
-    padding-top: 1px;
-    padding-right: 20px;
 }
 
-.about-msg {
+.sunday {
+    float: right;
+}
+
+.about-msg1, .about-msg2, .about-msg3 {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about-msg1 {
     margin-left: 50px;
     padding-right: 30px;
 }
-
-
+.inv {
+    text-align: right;
+}
 
 /* media */
 @media screen and (max-width: 900px) {

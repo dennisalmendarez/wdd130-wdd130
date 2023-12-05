@@ -240,6 +240,13 @@ footer p, footer a {
 
 
 /* event page in progress */
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px auto;
+    padding-left: 70px;
+}
 
 #background-event {
     background-color: var(--headline-color-on-color);
@@ -273,14 +280,6 @@ footer p, footer a {
 
 .events-msg h2 {
     text-align: center;
-}
-
-.main-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 20px auto;
-    padding-left: 70px;
 }
 
 .event-box {
@@ -414,6 +413,45 @@ footer p, footer a {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+/* about us page */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+#background-msg {
+    background-color: var(--headline-color-on-color);
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.temple, .sunday{
+    width: 200px;
+    float: right;
+    border-radius: 40px;
+    padding-top: 1px;
+    padding-right: 20px;
+}
+
+.share {
+    width: 200px;
+    float: left;
+    border-radius: 40px;
+    padding-top: 1px;
+    padding-right: 20px;
+}
+
+.about-msg {
+    margin-left: 50px;
+    padding-right: 30px;
+}
+
 
 
 /* media */

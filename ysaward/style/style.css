@@ -163,7 +163,9 @@ h4 a:hover {
 a.article-link {
     color: var(--paragraph-color-on-color);
 }
-
+a.link{
+    color: red;
+}
 h2 {
     color: white;
 }

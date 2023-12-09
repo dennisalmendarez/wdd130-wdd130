@@ -28,6 +28,10 @@
     margin: 0 auto;
 }
 
+p {
+    font-size: 1.08em;
+}
+
 body {
     margin: 0;
     font-family: var(--paragraph-font);
